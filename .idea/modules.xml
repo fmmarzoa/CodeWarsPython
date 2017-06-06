@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Python.iml" filepath="$PROJECT_DIR$/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conways/conways.iml" filepath="$PROJECT_DIR$/conways/conways.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findodd/findodd.iml" filepath="$PROJECT_DIR$/findodd/findodd.iml" />
+    </modules>
+  </component>
+</project>
