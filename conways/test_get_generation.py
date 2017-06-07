@@ -16,13 +16,28 @@ class TestGetGeneration(TestCase):
             s.append('<br/>')
         return ''.join(s)
 
+    # def test_get_generation(self):
+    #     start = [[1, 0, 0],
+    #              [0, 1, 1],
+    #              [1, 1, 0]]
+    #     end = [[0, 1, 0],
+    #            [0, 0, 1],
+    #            [1, 1, 1]]
+    #     from ConwaysGameOfLife import get_generation
+    #     resp = get_generation(start, 1)
+    #     self.assertEquals(resp, end, 'Got<br/>' + self.htmlize(resp) + '<br/>instead of<br/>' + self.htmlize(end))
+
     def test_get_generation(self):
         start = [[1, 0, 0],
                  [0, 1, 1],
                  [1, 1, 0]]
-        end = [[0, 1, 0],
-               [0, 0, 1],
-               [1, 1, 1]]
+        end = [[1, 0, 1],
+               [0, 1, 1],
+               [0, 1, 0]]
         from ConwaysGameOfLife import get_generation
-        resp = get_generation(start, 1)
+        resp = get_generation(start, 2)
         self.assertEquals(resp, end, 'Got<br/>' + self.htmlize(resp) + '<br/>instead of<br/>' + self.htmlize(end))
+
+# [[0, 1, 0],
+#  [0, 0, 1],
+#  [1, 1, 1]]
