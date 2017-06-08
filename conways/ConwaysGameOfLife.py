@@ -37,7 +37,6 @@ def frame_array(array):
 
 
 def get_generation(cells, generations):
-    # print("gens:" + str(generations) + "\ncells: " + str(cells))
     current_gen = np.array(cells)
     while generations:
         framed_array = frame_array(current_gen)
