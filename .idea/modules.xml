@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Python.iml" filepath="$PROJECT_DIR$/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alphabetic_anagrams/alphabetic_anagrams.iml" filepath="$PROJECT_DIR$/alphabetic_anagrams/alphabetic_anagrams.iml" />
       <module fileurl="file://$PROJECT_DIR$/conways/conways.iml" filepath="$PROJECT_DIR$/conways/conways.iml" />
       <module fileurl="file://$PROJECT_DIR$/findodd/findodd.iml" filepath="$PROJECT_DIR$/findodd/findodd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titlecase/titlecase.iml" filepath="$PROJECT_DIR$/titlecase/titlecase.iml" />
     </modules>
   </component>
 </project>
